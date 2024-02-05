@@ -132,7 +132,7 @@ function PicnicBudget(participants) {
     if( typeof participants !== 'number'|| participants < 0 ){
         return ' positive '
     }
-    else if {
+    else  {        
         let first100Cost = 0;
         let second101T200Cost = 0;
         let remainingCost = 0;
@@ -154,7 +154,6 @@ function PicnicBudget(participants) {
             total = first100Cost + second101T200Cost + remainingCost;
             return total;
         }
-    
     
 }
 
